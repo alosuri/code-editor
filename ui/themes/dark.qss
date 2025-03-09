@@ -1,0 +1,7 @@
+/* dark.qss */
+
+@background: #171717;
+@background2: #212121;
+@background3: #333333;
+@background4: #444444;
+@foreground: #ffffff;

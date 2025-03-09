@@ -1,0 +1,73 @@
+/* base.qss */
+
+QTreeView {
+    background-color: @background;
+}
+
+QTabWidget::pane {
+    background-color: @background;
+    border: none;
+    border-radius: 0px;
+}
+
+QTabWidget QTabBar::tab {
+    background-color: @background;
+    border: none;
+    padding: 5px;
+}
+
+QTabWidget QTabBar::tab:selected {
+    background-color: @background2;
+}
+
+QTabWidget QTabBar::close-button {
+    image: url(./ui/icons/close.png);
+    width: 10px;
+    height: 10px;
+}
+               
+QTabWidget QTabBar::close-button:hover {
+    background: #20aaaaaa;
+    border-radius: 2px;               
+}
+
+QPlainTextEdit {
+	background-color: @background2;
+	border: none;
+	border-radius: 0px;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background: @background2;
+    opacity: 0.3;
+    width: 10px;
+    margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: @background3;
+    min-height: 20px;
+    border-radius: 0px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: @background4;
+}
+
+QScrollBar::handle:vertical:pressed {
+    background: #777;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background: none;
+    height: 0px;
+}
+
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+    background: none;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
